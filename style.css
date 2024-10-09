@@ -1,0 +1,5 @@
+@media (max-width: 393px) {
+    body{
+        background-image: url(bg/mobile_bg.jpg)
+        }
+}
