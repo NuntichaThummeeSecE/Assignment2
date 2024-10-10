@@ -370,7 +370,7 @@ footer p {
 
     header {
         position: absolute;
-        width: 104%;
+        width: 100%;
         height: 15%;
     }
 
@@ -431,7 +431,7 @@ footer p {
         width: 100%;
         height: auto;
         left: 12%;
-        top: 54%;
+        top: 60%;
     }
 
     #friedNoodle {
@@ -470,7 +470,7 @@ footer p {
         display: flex;
         flex-direction: column;
         width: 87%;
-        margin-top: 90%;
+        margin-top: 80%;
         margin-left: 8%;
         text-align: center;
     }
@@ -552,8 +552,8 @@ footer p {
         position: absolute;
         width: 146px;
         height: auto;
-        left: 35%;
-        top: 420%;
+        left: 40%;
+        top: 460%;
     }
 
     #fishSauce {
@@ -561,7 +561,7 @@ footer p {
         width: 38px;
         height: auto;
         left: 30%;
-        top: 440%;
+        top: 480%;
     }
 
     #container {
@@ -604,7 +604,7 @@ footer p {
     }
 
     footer {
-        width: 104%;
+        width: 100%;
         height: 30%;
         background: rgba(0, 0, 0, 0.5);
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
@@ -612,7 +612,7 @@ footer p {
         flex-direction: column;
         text-align: left;
         align-items: flex-start;
-        margin-top: 180%;
+        margin-top: 230%;
     }
 
     footer h5 {
