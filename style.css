@@ -61,10 +61,8 @@ nav ul {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-top: 25%;
-    margin-left: auto;
-    margin-right: 45%;
-    max-width: 600px;
+    margin-top: 400px;
+    margin-left: 180px;
 }
 
 h2 {
@@ -256,9 +254,41 @@ h4 {
     margin-left: 43%;
 }
 
+#padKapraw {
+    position: absolute;
+    width: 368px;
+    height: 368px;
+    left: 285px;
+    top: 2150px;
+}
 
+#fishSauce {
+    position: absolute;
+    width: 95px;
+    height: 93px;
+    left: 186px;
+    top: 2450px;
+}
 
+#container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 400px;
+    margin-left: 180px;
 
+}
+
+#container h3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#container p {
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 14px;
+}
 
 
 
