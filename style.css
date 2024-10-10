@@ -371,6 +371,66 @@ footer p {
     header {
         position: absolute;
         width: 100%;
-        height: 10%;
+        height: 15%;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    li {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: 1%;
+    }
+
+    li a {
+        text-decoration: none;
+        color: inherit;
+        list-style: none;
+    }
+
+    nav.navbar {
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 0.3%;
+        margin-left: -20%;
+    }
+
+    h2 {
+        position: absolute;
+        width: 20%;
+        height: auto;
+        left: 12%;
+        top: 25%;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    p.body {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    #section1 .body {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 12%;
+        top: 54%;
     }
 }
