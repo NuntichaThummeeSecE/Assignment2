@@ -57,18 +57,68 @@ nav ul {
     gap: 30px;
 }
 
+#section1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: 45%;
+    max-width: 600px;
+}
+
 h2 {
-    position: absolute;
-    width: 165px;
-    height: 181px;
-    left: 37px;
-    top: 108px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 64px;
+    line-height: 75px;
     color: #FFD984;
+    margin: 0;
+}
+
+p.body {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.08em;
+    color: #FFD984;
+    margin: 20px 0 0 0;
+}
+
+
+#friedNoodle {
+    position: absolute;
+    width: 379px;
+    height: 380px;
+    left: 742px;
+    top: 314px;
+}
+
+#chili {
+    position: absolute;
+    width: 122px;
+    height: 104px;
+    left: 1127px;
+    top: 400px;
+}
+
+#lime {
+    position: absolute;
+    width: 89px;
+    height: 83px;
+    left: 1171px;
+    top: 285px;
+}
+
+#sugar {
+    position: absolute;
+    width: 111px;
+    height: 111px;
+    left: 1038px;
+    top: 230px;
 }
 
 
