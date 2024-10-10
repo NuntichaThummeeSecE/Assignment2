@@ -547,4 +547,21 @@ footer p {
         margin-left: 35%;
         width: 30%;
     }
+
+    #padKapraw {
+        position: absolute;
+        width: 146px;
+        height: auto;
+        left: 35%;
+        top: 420%;
+    }
+
+    #fishSauce {
+        position: absolute;
+        width: 38px;
+        height: auto;
+        left: 30%;
+        top: 440%;
+    }
+
 }
