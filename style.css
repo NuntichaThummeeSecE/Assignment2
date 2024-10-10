@@ -362,23 +362,9 @@ footer p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*iphone 16 */
-@media (max-width: 393px) {
+
+@media only screen and (max-width: 393px) {
     body {
         background-image: url(bg/mobile_bg.jpg)
     }
