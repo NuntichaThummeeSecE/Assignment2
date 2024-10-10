@@ -433,4 +433,36 @@ footer p {
         left: 12%;
         top: 54%;
     }
+
+    #friedNoodle {
+        position: absolute;
+        width: auto;
+        height: 120.39px;
+        left: 50%;
+        top: 33%;
+    }
+
+    #chili {
+        position: absolute;
+        width: auto;
+        height: 35.17px;
+        left: 82%;
+        top: 36%;
+    }
+
+    #lime {
+        position: absolute;
+        width: auto;
+        height: 26.3px;
+        left: 82%;
+        top: 30%;
+    }
+
+    #sugar {
+        position: absolute;
+        width: auto;
+        height: 32.95px;
+        left: 70%;
+        top: 28%;
+    }
 }
