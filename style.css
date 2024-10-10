@@ -534,5 +534,17 @@ footer p {
         margin-left: 2.5%;
     }
 
-
+    #viewFullMenu {
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 15px;
+        display: flex;
+        justify-content: center;
+        margin-left: 35%;
+        width: 30%;
+    }
 }
