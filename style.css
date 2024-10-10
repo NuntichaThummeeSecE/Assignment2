@@ -232,4 +232,23 @@
         margin-right: 8%;
     }
 
+    #viewFullMenu {
+        background-color: rgba(251, 120, 31, 0.5);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        border-radius: 20px;
+        text-decoration: none;
+        color: inherit;
+        list-style: none;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFD984;
+
+    }
+
 }
