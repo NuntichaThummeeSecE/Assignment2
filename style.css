@@ -77,9 +77,9 @@
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
-        line-height: 14px;
+        line-height: 16px;
         text-align: center;
-        letter-spacing: 0.14em;
+        letter-spacing: 0.08em;
         color: #FFD984;
     }
 
@@ -248,7 +248,61 @@
         font-size: 13px;
         line-height: 15px;
         color: #FFD984;
-
     }
 
+    #padKapraw {
+        position: absolute;
+        width: 146px;
+        height: 146px;
+        left: 143px;
+        top: 2646px;
+    }
+
+    #fishSauce {
+        position: absolute;
+        width: 38px;
+        height: 37px;
+        left: 104px;
+        top: 2755px;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60%;
+    }
+
+    #container h3 {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    #container p {
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    #seeAllspecials {
+        background-color: #FFD984;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        border-radius: 20px;
+        text-decoration: none;
+        color: inherit;
+        list-style: none;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 15px;
+        color: #4F2002;
+        position: absolute;
+        left: 130px;
+        top: 2985px;
+    }
 }
+
