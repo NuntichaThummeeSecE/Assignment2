@@ -429,7 +429,7 @@ footer p {
 }
 
 .card {
-    animation: slide-up 1s ease-out forwards;
+    animation: slide-up 2s ease-out forwards;
     opacity: 0;
 }
 
@@ -489,12 +489,11 @@ footer {
 }
 
 header {
-    animation: slide-down 1s ease-out forwards;
+    animation: fade-in 1s ease-out forwards;
     opacity: 0;
 }
 
-
-@keyframes slide-down {
+@keyframes fade-in {
     from {
         opacity: 0;
         filter: blur(2px);
@@ -505,12 +504,6 @@ header {
         filter: blur(0);
     }
 }
-
-
-
-
-
-
 
 
 @media only screen and (max-width: 393px) {
