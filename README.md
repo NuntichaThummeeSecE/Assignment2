@@ -23,6 +23,6 @@ Responsive design
 
 To view the project
 1. Access GitHub: Go to: https://github.com/NuntichaThummeeSecE/Assignment2
-2. Clone the repository.
+2. Clone or download the project.
 3. Open the `main.html` file in your web browser.
 4. For mobile interface: inspect element in responsive mode (393px)
