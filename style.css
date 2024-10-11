@@ -392,14 +392,45 @@ footer p {
 
     from {
         transform: rotate(0deg) scale(0);
-         opacity: 0;
+        opacity: 0;
+        filter: blur(2px);
     }
 
     to {
         transform: rotate(360deg) scale(1);
         opacity: 100;
+        filter: blur(0);
     }
 }
+
+#section1 h2 {
+    animation: slide-up 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 0.2s
+}
+
+#section1 p {
+    animation: slide-up 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 0.4s
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+        filter: blur(2px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+
+
 
 
 
