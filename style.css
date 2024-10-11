@@ -386,6 +386,7 @@ footer p {
 
 .rotate {
     animation: spin 2s linear forwards;
+    opacity: 0;
 }
 
 @keyframes spin {
@@ -415,6 +416,64 @@ footer p {
     animation-delay: 0.4s
 }
 
+#section2 {
+    animation: slide-up 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 3s
+}
+
+#section3 {
+    animation: slide-up 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 5s
+}
+
+.card {
+    animation: slide-up 1s ease-out forwards;
+    opacity: 0;
+}
+
+.card:nth-child(1) {
+    animation-delay: 7s;
+}
+
+.card:nth-child(2) {
+    animation-delay: 8s;
+}
+
+.card:nth-child(3) {
+    animation-delay: 9s;
+}
+
+.card:nth-child(4) {
+    animation-delay: 10s;
+}
+
+#viewFullMenu {
+    animation: slide-up 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 12s
+}
+
+.rotation2 {
+    animation: spin 2s linear forwards;
+    opacity: 0;
+    animation-delay: 14s
+}
+
+#container {
+    animation: slide-up 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 16s
+}
+
+footer {
+    animation: slide-up 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 18s
+}
+
+
 @keyframes slide-up {
     from {
         transform: translateY(30px);
@@ -424,6 +483,24 @@ footer p {
 
     to {
         transform: translateY(0);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+header {
+    animation: slide-down 1s ease-out forwards;
+    opacity: 0;
+}
+
+
+@keyframes slide-down {
+    from {
+        opacity: 0;
+        filter: blur(2px);
+    }
+
+    to {
         opacity: 1;
         filter: blur(0);
     }
